@@ -45,14 +45,14 @@ header {
     color: aliceblue;
 }
 
-.header-link{
+.header-link {
     font-size: 24px;
     font-weight: 700;
     color: aliceblue;
 }
 
 .hero {
-    padding: 50 0;
+    padding: 50pX 0px;
 }
 
 .hero-container {
@@ -60,7 +60,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-   
+
 }
 
 .hero-image {
@@ -77,120 +77,154 @@ header {
 
 .hero-text {
     font-size: 22px;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .dough {
-    background-color:rgb(255, 167, 123);
+    background-color: rgb(255, 167, 123);
     justify-content: space-between;
     padding-bottom: 50px;
     padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom:
 }
+     
 
 .dough-container {
     justify-content: space-between;
     display: flex;
     gap: 50px;
-    align-items:center ;
-    
-}
-.dough-title{
-color: rgb(113, 27, 12) ;
-font-size: 33px;
-padding-bottom: 30px;
+    align-items: center;
+
 }
 
-.dough-text{
+.dough-title {
+    color: rgb(113, 27, 12);
+    font-size: 33px;
+    padding-bottom: 30px;
+}
+
+.dough-text {
     padding-bottom: 15px;
     padding-top: 15px;
     font-size: 22px;
 }
-.dough-list{
+
+.dough-list {
     margin-left: 50px;
     font-size: 30px;
 }
 
-.dough-item{
-list-style: disc;
+.dough-item {
+    list-style: disc;
 
 
 }
-.dough-img{
+
+.dough-img {
     width: 500px;
     height: 500px;
 }
-.dough-list{
+
+.dough-list {
     margin-left: 50px;
 }
-.filling{
+
+.filling {
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: space-between;
+    gap: 50px;
 }
 
-.filling-container{
+.filling-container {
     display: flex;
     justify-content: space-between;
 }
-.filling-img{
+
+.filling-img {
     width: 550px;
 }
-.filling-title{
+
+.filling-title {
     font-size: 33px;
-    color: rgb(113, 27, 12) ;
+    color: rgb(113, 27, 12);
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.filling-text{
+
+.filling-text {
     padding-top: 15px;
     font-size: 22px;
 }
-.filling-list{
+
+.filling-list {
     list-style: disc;
     font-size: 22px;
-    padding-top: 15px;
+    padding-left: 30px;
 }
-footer{
+
+footer {
     background-color: rgb(221, 103, 82);
-    padding-top:30px ;
+    padding-top: 30px;
     padding-bottom: 30px;
-    
+
 
 }
-.footer-img{
+
+.footer-img {
     width: 30px;
     justify-content: space-between;
 }
-.footer-container{
-display: flex;
-justify-content:center ;
-gap: 30px;
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
-.footer-text{
+
+.footer-text {
     font-size: 20px;
     color: aliceblue;
 }
-.my-pizza{
-    background-color:rgb(255, 167, 123);
+
+.my-pizza {
+    background-color: rgb(255, 167, 123);
     display: flex;
+    align-items: center;
+
 }
-.pizza-image{
+
+.pizza-image {
     height: 300px;
-    justify-content: space-between;
+    display: flex;
+
 }
-.my-pizza-text{
+
+.my-pizza-text {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
+    text-align: center;
 }
-.my-pizza-item{
-list-style: disc;
-font-size: 26px;
+
+.my-pizza-item {
+    list-style: disc;
+    font-size: 26px;
 }
-.my-pizza-title{
-    color: rgb(113, 27, 12) ;
+
+.my-pizza-title {
+    color: rgb(113, 27, 12);
     font-size: 50px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
+    text-align: center;
+}
+
+.my-pizza-list {
+    padding-left: 30px;
+}
+.my-pizza-container-main{
+display: flex;
 }
