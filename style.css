@@ -86,9 +86,8 @@ header {
     padding-bottom: 50px;
     padding-top: 50px;
     margin-top: 50px;
-    margin-bottom:
+    margin-bottom: 50px;
 }
-     
 
 .dough-container {
     justify-content: space-between;
@@ -220,6 +219,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
     text-align: center;
+    
 }
 
 .my-pizza-list {
@@ -227,4 +227,5 @@ footer {
 }
 .my-pizza-container-main{
 display: flex;
-}
+justify-content: space-between;
+ }
