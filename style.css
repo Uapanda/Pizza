@@ -1,6 +1,7 @@
 body {
     background-color: blanchedalmond;
     margin: 0;
+    font-size: 22px;
 }
 
 ul,
@@ -40,9 +41,9 @@ header {
 .header-list {
     display: flex;
     gap: 50px;
-    font-size: 24px;
-    font-weight: 700;
-    color: aliceblue;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(221, 103, 82);
 }
 
 .header-link {
@@ -85,8 +86,7 @@ header {
     justify-content: space-between;
     padding-bottom: 50px;
     padding-top: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
 }
 
 .dough-container {
@@ -111,7 +111,7 @@ header {
 
 .dough-list {
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .dough-item {
@@ -125,9 +125,7 @@ header {
     height: 500px;
 }
 
-.dough-list {
-    margin-left: 50px;
-}
+
 
 .filling {
     padding-top: 50px;
@@ -139,10 +137,12 @@ header {
 .filling-container {
     display: flex;
     justify-content: space-between;
+    text-align: center; 
 }
 
 .filling-img {
     width: 550px;
+    padding: 0 60px 0 0;
 }
 
 .filling-title {
@@ -197,7 +197,7 @@ footer {
 .pizza-image {
     height: 300px;
     display: flex;
-
+    
 }
 
 .my-pizza-text {
@@ -223,9 +223,11 @@ footer {
 }
 
 .my-pizza-list {
-    padding-left: 30px;
+    padding-right: 600px;
 }
 .my-pizza-container-main{
 display: flex;
-justify-content: space-between;
- }
+margin: 20px;
+padding: 0 0 100px 0;
+text-align: center; 
+   }
