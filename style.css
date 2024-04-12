@@ -141,6 +141,7 @@ header {
 }
 .filling-list{
     text-align: left;
+    margin-left: 50px;
 }
 
 .filling-img {
@@ -192,7 +193,7 @@ footer {
 
 .my-pizza {
     background-color: rgb(255, 167, 123);
-    padding: 50px;
+    
 
 }
 
@@ -201,6 +202,7 @@ footer {
     display: flex;
     padding-right: 300px;
 padding-left: 60px;
+display: inline-block;
 }
 
 .my-pizza-text {
@@ -223,16 +225,21 @@ padding-left: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 25px;
     text-align: center;
+    padding-top: 35px;
     
 }
 
 .my-pizza-list{
 text-align: left;
-padding-left: 300px;
+display: inline-block;
+align-items: center;
 }
 .my-pizza-container-main{
-display: flex;
+
 margin: 20px;
 padding: 0 0 100px 0;
 text-align: center; 
+display: flex;
+justify-content: center;
+align-items: center;
    }
