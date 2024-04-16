@@ -137,11 +137,15 @@ header {
 .filling-container {
     display: flex;
     justify-content: space-between;
-    text-align: center; 
+
 }
-.filling-list{
-    text-align: left;
+
+.filling-list {
+
     margin-left: 50px;
+    list-style: disc;
+    font-size: 22px;
+
 }
 
 .filling-img {
@@ -161,10 +165,60 @@ header {
     font-size: 22px;
 }
 
-.filling-list {
+
+
+
+
+.my-pizza {
+    background-color: rgb(255, 167, 123);
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+.pizza-image {
+    height: 300px;
+}
+
+.my-pizza-text {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    text-align: center;
+    
+}
+
+.my-pizza-item {
     list-style: disc;
-    font-size: 22px;
-    padding-left: 30px;
+    font-size: 26px;
+    width: 300px;
+}
+
+.my-pizza-title {
+    color: rgb(113, 27, 12);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 25px;
+    text-align: center;
+ 
+
+}
+
+.my-pizza-list {
+    text-align: left;
+    display: inline-block;
+    align-items: center;
+}
+
+.my-pizza-container-main {
+
+    
+    padding: 0 0 100px 0;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer {
@@ -190,56 +244,3 @@ footer {
     font-size: 20px;
     color: aliceblue;
 }
-
-.my-pizza {
-    background-color: rgb(255, 167, 123);
-    
-
-}
-
-.pizza-image {
-    height: 300px;
-    display: flex;
-    padding-right: 300px;
-padding-left: 60px;
-display: inline-block;
-}
-
-.my-pizza-text {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: oblique;
-    text-align: center;
-}
-
-.my-pizza-item {
-    list-style: disc;
-    font-size: 26px;
-    width: 300px;
-}
-
-.my-pizza-title {
-    color: rgb(113, 27, 12);
-    font-size: 50px;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 25px;
-    text-align: center;
-    padding-top: 35px;
-    
-}
-
-.my-pizza-list{
-text-align: left;
-display: inline-block;
-align-items: center;
-}
-.my-pizza-container-main{
-
-margin: 20px;
-padding: 0 0 100px 0;
-text-align: center; 
-display: flex;
-justify-content: center;
-align-items: center;
-   }
